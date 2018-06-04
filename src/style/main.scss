@@ -1,0 +1,256 @@
+
+body {
+    font-family: 'Roboto-Light' !important;   //Override Bootstrap's default font
+    height: 100vh;
+ 
+    h2,h3,h4 {
+        font-family: 'Roboto-Regular';
+        font-size: 1.3rem;
+        color: #606060;
+    }
+
+
+    p {
+        font-family: 'Roboto-Light'; 
+        font-size: 1rem;
+        line-height: 29px;
+        margin-top: 30px;
+    }
+}
+
+
+// General styles
+
+.demo-title{
+    font-family: 'Roboto-Light';
+    padding-top: 10px;
+    color: #4e6bff;
+}
+
+// Header 
+
+.header-txt {
+    top: 90px;
+}
+
+.header-subtxt{
+    font-size: 1.4rem;
+    color: #7a7a7a;
+}
+
+#header {
+    position: relative;
+    height: 900px;
+    /* 1500 - 1680 */
+
+    @media only screen and (min-width: 1600px) and (max-width: 1680px) {
+
+    
+            h3 {
+                font-size: 1.8rem;
+            }
+            
+            p {
+                font-size: 1.6rem;
+            }
+    
+    }
+
+    @media only screen and (min-width: 1820px) and (max-width: 1980px) {
+        
+        h3 {
+            font-size: 3rem;
+        }
+        
+        p {
+            font-size: 2.8rem;
+            line-height: 55px;
+        }
+
+
+    }
+
+}
+
+#laptop-img {
+
+    height: 100%;
+
+    @media only screen and (min-width: 320px) and (max-width: 414px) { 
+        height: 100%;
+        margin-top: 60px;
+        width: 100%;
+    }
+}
+
+.navbar-trans {
+    font-family: 'Roboto-Regular';
+    margin-top: 20px;
+    position: relative;
+    right: 30px;
+
+    @media only screen and (min-width: 1820px) and (max-width: 1980px) {
+        font-size: 2.8rem;
+
+    }
+
+    .nav-link {
+        font-size: 1.2rem;
+        color: #4e6bff;
+    }
+
+    .nav-link:hover {
+        color: #ff97af;
+    }
+
+}
+
+
+
+.shapes {
+    z-index: 1;
+}
+
+
+
+// Body
+
+#offer {
+    position: relative;
+    top: 30px;
+    height: 400px;
+}
+
+
+// Code Samples/Portfolio
+#projects {
+    position: relative;
+    top: 30px;
+    height: 820px;
+  margin-bottom: 30px;
+}
+
+
+#proj-subtitle {
+    margin-bottom: 30px;
+}
+
+// My Toolkit
+#skills{
+    position: relative;
+    top: 30px;
+    height: auto;
+    margin-bottom: 60px;
+}
+
+#coming-soon-text {
+    color: #C0C0C0;
+    position: relative; 
+    margin-top: 90px; 
+    margin-left: 60px;
+  }
+
+#me {
+    position: relative;
+    top: 30px;
+    height: auto;
+}
+
+#about-intro-img {
+    margin-left: 20%;
+}
+
+.social-links {
+    margin: 5px;
+}
+
+.modal-txt {
+    font-size: 14px;
+    line-height: 20px;
+      margin-top: 30px;
+  }
+
+// Code Projects/Portfolio Section
+
+.card-text {
+    text-align: left;
+}
+
+.github-icon {
+    height: 100%;
+}
+
+.browser-icon {
+    height: 100%;
+}
+
+.googledrive-icon {
+    height: 100%;
+}
+
+.icon-links {
+   color:  #212529;
+}
+
+
+.left-icon {
+    margin-right: 25px;
+    text-align: center;
+
+    a {
+        color:  #212529;
+    }
+
+    a:hover {
+        text-decoration: none;
+    }
+}
+
+.right-icon {
+    a {
+        color:  #212529;
+    }
+
+    a:hover {
+        text-decoration: none;
+    }
+}
+
+.ico-group {
+ margin-top: 25px;
+}
+
+
+// Side Nav Icons
+
+.code-icon {
+    height: 100%;
+}
+
+
+// RESPONSIVE CODE Media Queries
+
+
+  /* ------10" Notebook -----*/
+
+@media only screen and (min-device-width: 1024px) and (max-device-height: 768px) and (orientation: landscape) {
+	
+	.master-slider-parent {
+		position: relative;
+		margin-top: 7px;
+	}
+	#menu-topnav li a {
+		font-size: 11.5px;
+	}
+	.col-md-4 {
+		width: 46% !important;
+	}
+	.navbar>.container-fluid .navbar-brand {
+		margin-left: -48px !important;
+		/* Have to override Bootstrap's default spacing */
+	}
+	ul.social-nav {
+		right: 45px !important;
+		left: 0;
+	}
+}
