@@ -226,7 +226,7 @@ export class Projects extends React.Component {
 
                     <span className="right-icon">
                       <a
-                        href="https://github.com/AleeWeb/alicia-portfoliosite"
+                        href="https://github.com/AleeWeb/alicia-portfolio"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
