@@ -46,17 +46,17 @@ export class Projects extends React.Component {
                   </div>
                   <div className="modal-body">
 
-                  <img src={require('../img/modal-img-travbuddy.jpg')} alt ="Travel Buddy Add Plan Screenshot" width="100%" />
+                    <img src={require('../img/modal-img-travbuddy.jpg')} alt="Travel Buddy Add Plan Screenshot" width="100%" />
 
                     <p className="modal-txt">Thanks to Django All-Auth, users can easily login using their Google or GitHub accounts. Add your own travel plans or join the trips of other users.
 
-                  If you plan to download the code, you will need to obtain your own <a href="https://django-allauth.readthedocs.io/en/latest/providers.html#google" target="_blank" rel="noopener noreferrer">Google</a> and <a href="https://django-allauth.readthedocs.io/en/latest/providers.html#github" target="_blank" rel="noopener noreferrer">GitHub</a> keys to enter into the 
+                  If you plan to download the code, you will need to obtain your own <a href="https://django-allauth.readthedocs.io/en/latest/providers.html#google" target="_blank" rel="noopener noreferrer">Google</a> and <a href="https://django-allauth.readthedocs.io/en/latest/providers.html#github" target="_blank" rel="noopener noreferrer">GitHub</a> keys to enter into the
                    app Django admin dashboard.</p>
 
-                       <small><strong>Note:</strong> The code is uploaded and shared to DropBox because I <strong>cannot</strong> redistribute MDB Pro to 
-                       open repositories like GitHub based on the <a href="https://mdbootstrap.com/license/" target="_blank" rel="noopener noreferrer">license</a> restrictions 
+                    <small><strong>Note:</strong> The code is uploaded and shared to DropBox because I <strong>cannot</strong> redistribute MDB Pro to
+                       open repositories like GitHub based on the <a href="https://mdbootstrap.com/license/" target="_blank" rel="noopener noreferrer">license</a> restrictions
                        explained to me by staff.</small>
-                    
+
                   </div>
                   <div className="modal-footer">
                     <span className="left-icon">
@@ -133,8 +133,8 @@ export class Projects extends React.Component {
                   </div>
                   <div className="modal-body">
 
-                  <img src={require('../img/modal-img-cartpg.jpg')} alt ="React Shopping Cart Screenshot" width="100%" />
-                  
+                    <img src={require('../img/modal-img-cartpg.jpg')} alt="React Shopping Cart Screenshot" width="100%" />
+
                     <p className="modal-txt">This is a React shopping cart app and landing page demo for the small jewelry business, "Inspired Adornment." See GitHub for more information.</p>
 
                   </div>
@@ -184,7 +184,7 @@ export class Projects extends React.Component {
           {/* End of Modal 2  */}
 
           {/* Modal 3 */}
-           <Col xs="6" sm="3">
+          <Col xs="6" sm="3">
             <img
               src={require('../img/thumb-react-portfolio.jpg')}
               className="hvr-grow-shadow"
@@ -205,7 +205,7 @@ export class Projects extends React.Component {
                 <div className="modal-content">
                   <div className="modal-header">
                     <h5 className="modal-title" id="exampleModalLabel">
-                     React Portfolio
+                      React Portfolio
                     </h5>
                     <button
                       type="button"
@@ -254,7 +254,7 @@ export class Projects extends React.Component {
           {/* End of Modal 3  */}
 
           {/* Modal 4 */}
-           <Col xs="6" sm="3">
+          <Col xs="6" sm="3">
             <img
               src={require('../img/thumb-django-jobapp.jpg')}
               className="hvr-grow-shadow"
@@ -288,10 +288,10 @@ export class Projects extends React.Component {
                   </div>
                   <div className="modal-body">
 
-                    <img src={require('../img/modal-img-jobapp.jpg')} alt ="Django HR Job app" width="100%" />
-              
+                    <img src={require('../img/modal-img-jobapp.jpg')} alt="Django HR Job app" width="100%" />
+
                     <p className="modal-txt">
-                      This is a Python DJANGO human resources job post management app tool. The basic CRUD 
+                      This is a Python DJANGO human resources job post management app tool. The basic CRUD
                       (create, read, update and delete). Post, edit and delete job titles and descriptions.</p>
                   </div>
                   <div className="modal-footer">
@@ -333,7 +333,7 @@ export class Projects extends React.Component {
 
         <Row>
           {/* Modal 5  */}
-           <Col xs="6" sm="3">
+          <Col xs="6" sm="3">
             {" "}
             <img
               src={require('../img/thumb-angular.jpg')}
@@ -401,16 +401,16 @@ export class Projects extends React.Component {
           {/* End of Modal 5  */}
 
 
-           {/* Start of Modal #6 */} 
-            <Col xs="6" sm="3">
-           <img
+          {/* Start of Modal #6 */}
+          <Col xs="6" sm="3">
+            <img
               src={require('../img/thumb-py3.jpg')}
               className="hvr-grow-shadow"
               data-toggle="modal"
               data-target="#modal6"
               alt="Django TravelBuddy Screenshot"
             />
-          
+
             <div
               className="modal fade"
               id="modal6"
@@ -423,7 +423,7 @@ export class Projects extends React.Component {
                 <div className="modal-content">
                   <div className="modal-header">
                     <h5 className="modal-title" id="exampleModalLabel">
-                     Python 3
+                      Python 3
                     </h5>
                     <button
                       type="button"
@@ -438,7 +438,7 @@ export class Projects extends React.Component {
                     <p>This is some <strong>Python 3</strong> API training last Fall. I will be posting updated code samples using the <strong>latest Python 3.6.5 and Django 2.0.6.</strong></p>
                   </div>
                   <div className="modal-footer">
-                    
+
 
                     <span className="right-icon">
                       <a
@@ -470,7 +470,7 @@ export class Projects extends React.Component {
 
 
           {/* Modal 7 */}
-           <Col xs="6" sm="3">
+          <Col xs="6" sm="3">
             <img
               src={require('../img/thumb-randomgen.jpg')}
               className="hvr-grow-shadow"
@@ -537,10 +537,10 @@ export class Projects extends React.Component {
 
           {/* End of Modal 7  */}
 
-        
 
-      
-           {/* Hide for now. More Coming Soon!
+
+
+          {/* Hide for now. More Coming Soon!
            <Col xs="6" sm="3">
             <img
               src="http://via.placeholder.com/215x215"
@@ -621,7 +621,7 @@ export class Projects extends React.Component {
           </Col>
           */}
 
-              <h1 id="coming-soon-text">More Code Samples Coming Soon !</h1>
+          <h1 id="coming-soon-text">More Code Samples Coming Soon !</h1>
         </Row>
         {/* End of Row 2 */}
       </Container>

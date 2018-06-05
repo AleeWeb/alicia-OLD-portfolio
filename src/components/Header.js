@@ -1,13 +1,17 @@
 import React from "react";
+import { Container, Row, Col } from "reactstrap";
 import laptop from '../img/laptop_triangle.svg';
 import '../App.css';
 
 export class Header extends React.Component {
   render() {
     return (
-      <div className="container-fluid" id="header">
-        <div className="row">
-          <div className="col-sm-6 col-xl-6 header-txt">
+
+      <Container className="container-fluid" id="header">
+
+        <Row>
+
+          <Col sm="6" xl="6" className="header-txt">
 
             <h3>
               Software Developer &amp; UI/UX Designer
@@ -19,15 +23,15 @@ export class Header extends React.Component {
               I provide you with clean <span className="ui">UI design</span>, creative user experiences
                and development for your applications.
             </p>
-          </div>
+          </Col>
 
-          <div className="col-sm-6 col-xl-6">
-          
-          <img src={laptop} id="laptop-img"  alt="logo" />
+          <Col sm="6" xl="6">
 
-          </div>
-        </div>
-      </div>
+            <img src={laptop} id="laptop-img" alt="logo" />
+
+          </Col>
+        </Row>
+      </Container>
     );
   }
 }
