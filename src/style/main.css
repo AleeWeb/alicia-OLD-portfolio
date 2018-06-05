@@ -81,6 +81,12 @@ body {
   height: 820px;
   margin-bottom: 30px; }
 
+  @media only screen and (min-width: 320px) and (max-width: 414px) { 
+    #projects {
+      height: auto;
+    }
+  }
+
   #proj-subtitle {
     margin-bottom: 30px;
 }
@@ -112,6 +118,8 @@ margin-bottom: 60px;
 .social-links {
   margin: 5px;
   }
+
+  
   
 
 .modal-txt {

@@ -12,7 +12,7 @@ export class Projects extends React.Component {
 
         <Row>
           {/* Modal 1  */}
-          <Col sm="3">
+          <Col xs="6" sm="3">
             {" "}
             <img
               src={require('../img/thumb-travbuddy.jpg')}
@@ -99,7 +99,7 @@ export class Projects extends React.Component {
           {/* End of Modal 1  */}
 
           {/* Modal 2 */}
-          <Col sm="3">
+          <Col xs="6" sm="3">
             <img
               src={require('../img/thumb-react-jewelrycart.jpg')}
               className="hvr-grow-shadow"
@@ -184,7 +184,7 @@ export class Projects extends React.Component {
           {/* End of Modal 2  */}
 
           {/* Modal 3 */}
-          <Col sm="3">
+           <Col xs="6" sm="3">
             <img
               src={require('../img/thumb-react-portfolio.jpg')}
               className="hvr-grow-shadow"
@@ -254,7 +254,7 @@ export class Projects extends React.Component {
           {/* End of Modal 3  */}
 
           {/* Modal 4 */}
-          <Col sm="3">
+           <Col xs="6" sm="3">
             <img
               src={require('../img/thumb-django-jobapp.jpg')}
               className="hvr-grow-shadow"
@@ -333,7 +333,7 @@ export class Projects extends React.Component {
 
         <Row>
           {/* Modal 5  */}
-          <Col sm="3">
+           <Col xs="6" sm="3">
             {" "}
             <img
               src={require('../img/thumb-angular.jpg')}
@@ -402,7 +402,7 @@ export class Projects extends React.Component {
 
 
            {/* Start of Modal #6 */} 
-           <Col sm="3">
+            <Col xs="6" sm="3">
            <img
               src={require('../img/thumb-py3.jpg')}
               className="hvr-grow-shadow"
@@ -470,7 +470,7 @@ export class Projects extends React.Component {
 
 
           {/* Modal 7 */}
-          <Col sm="3">
+           <Col xs="6" sm="3">
             <img
               src={require('../img/thumb-randomgen.jpg')}
               className="hvr-grow-shadow"
@@ -541,7 +541,7 @@ export class Projects extends React.Component {
 
       
            {/* Hide for now. More Coming Soon!
-          <Col sm="3">
+           <Col xs="6" sm="3">
             <img
               src="http://via.placeholder.com/215x215"
               className = "hvr-grow-shadow"

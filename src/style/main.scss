@@ -128,6 +128,9 @@ body {
     top: 30px;
     height: 820px;
   margin-bottom: 30px;
+
+  @media only screen and (min-width: 320px) and (max-width: 414px) { 
+      height: auto;
 }
 
 
