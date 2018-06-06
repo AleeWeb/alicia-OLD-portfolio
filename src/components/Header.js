@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
 import laptop from '../img/laptop_triangle.svg';
-import '../App.css';
 
 export class Header extends React.Component {
   render() {

@@ -1,7 +1,6 @@
 body {
   font-family: 'Roboto-Light' !important;
   height: 100vh; }
-
   body h2, body h3, body h4 {
     font-family: 'Roboto-Regular';
     font-size: 1.3rem;
@@ -12,14 +11,20 @@ body {
     line-height: 29px;
     margin-top: 30px; }
 
-.card {
-  border: none !important;
-  padding-right: 4px; }
+.navbar-trans {
+  font-family: 'Roboto-Regular';
+  margin-top: 20px;
+  position: relative;
+  right: 30px; }
+  .navbar-trans .nav-link {
+    font-size: 1.2rem;
+    color: #4e6bff; }
+    .navbar-trans .nav-link:hover {
+      color: #ff97af; }
 
-.demo-title {
-  font-family: 'Roboto-Light';
-  padding-top: 10px;
-  color: #4e6bff; }
+@media only screen and (min-width: 1820px) and (max-width: 1980px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    font-size: 1.8rem; } }
 
 .header-txt {
   top: 90px; }
@@ -32,43 +37,31 @@ body {
   position: relative;
   height: 900px;
   /* 1500 - 1680 */ }
-  @media only screen and (min-width: 1600px) and (max-width: 1680px) {
-    #header h3 {
-      font-size: 1.8rem; }
-    #header p {
-      font-size: 1.6rem; } }
-  @media only screen and (min-width: 1820px) and (max-width: 1980px) {
-    #header h3 {
-      font-size: 3rem; }
-    #header p {
-      font-size: 2.8rem;
-      line-height: 55px; } }
 
-#laptop-img {
+@media only screen and (min-width: 1600px) and (max-width: 1680px) {
+  #header h3 {
+    font-size: 1.8rem; }
+  #header p {
+    font-size: 1.6rem; } }
+
+@media only screen and (min-width: 1820px) and (max-width: 1980px) {
+  #header h3 {
+    font-size: 2.7rem; }
+  #header p {
+    font-size: 2.1rem;
+    line-height: 55px; } }
+
+#laptopImg {
   height: 100%; }
 
-  @media only screen and (min-width: 320px) and (max-width: 414px) { 
-
-    #laptop-img {
+@media only screen and (min-width: 320px) and (max-width: 414px) {
+  .header-txt {
+    top: 10px;
+    left: 13%; }
+  #laptop-img {
     height: 100%;
     margin-top: 60px;
-    width: 100%;
-    }
-}
-
-.navbar-trans {
-  font-family: 'Roboto-Regular';
-  margin-top: 20px;
-  position: relative;
-  right: 30px; }
-  .navbar-trans .nav-link {
-    font-size: 1.2rem;
-    color: #4e6bff; }
-  .navbar-trans .nav-link:hover {
-    color: #ff97af; }
-
-.shapes {
-  z-index: 1; }
+    width: 100%; } }
 
 #offer {
   position: relative;
@@ -81,66 +74,63 @@ body {
   height: 820px;
   margin-bottom: 30px; }
 
-  @media only screen and (min-width: 320px) and (max-width: 414px) { 
-    #projects {
-      height: auto;
-    }
-  }
+@media only screen and (min-width: 320px) and (max-width: 414px) {
+  #projects {
+    height: auto; } }
 
-  #proj-subtitle {
-    margin-bottom: 30px;
-}
+#proj-subtitle {
+  margin-bottom: 30px; }
+
+.demo-title {
+  font-family: 'Roboto-Light';
+  padding-top: 10px;
+  color: #4e6bff; }
 
 #coming-soon-text {
   color: #C0C0C0;
-  position: relative; 
-  margin-top: 90px; 
-  margin-left: 60px;
-}
+  position: relative;
+  margin-top: 90px;
+  margin-left: 60px; }
 
 #skills {
   position: relative;
   top: 30px;
-  height: auto; 
-margin-bottom: 60px;
-}
-
+  height: auto;
+  margin-bottom: 60px; }
 
 #me {
   position: relative;
   top: 30px;
   height: 750px; }
 
-  #about-intro-img {
-    margin-left: 20%;
-}
+@media only screen and (min-width: 1820px) and (max-width: 1980px) {
+  #me {
+    height: 820px; } }
+
+#about-intro-img {
+  margin-left: 20%; }
 
 .social-links {
-  margin: 5px;
-  }
+  margin: 5px; }
 
-
-  #socialrow {
-    margin-left: 10px;
-  }
-  
+#socialrow {
+  margin-left: 10px; }
 
 .modal-txt {
   font-size: 14px;
   line-height: 20px;
-    margin-top: 30px;
-}
+  margin-top: 30px; }
+
+@media only screen and (min-width: 1820px) and (max-width: 1980px) {
+  .modal-txt {
+    font-size: 17px;
+    line-height: 25px;
+    margin-top: 30px; } }
 
 .card-text {
   text-align: left; }
 
-.github-icon {
-  height: 100%; }
-
-.browser-icon {
-  height: 100%; }
-
-.googledrive-icon {
+.github-icon, .browser-icon, .googledrive-icon {
   height: 100%; }
 
 .icon-links {
@@ -151,14 +141,13 @@ margin-bottom: 60px;
   text-align: center; }
   .left-icon a {
     color: #212529; }
-  .left-icon a:hover {
-    text-decoration: none; }
+    .left-icon a:hover {
+      text-decoration: none; }
 
 .right-icon a {
   color: #212529; }
-
-.right-icon a:hover {
-  text-decoration: none; }
+  .right-icon a:hover {
+    text-decoration: none; }
 
 .ico-group {
   margin-top: 25px; }
@@ -171,7 +160,7 @@ margin-bottom: 60px;
     padding: 1rem;
     border: 1px solid #4e6bff; } }
 
-/* ------10" Notebook -----*/
+/* ------10" Notebook ----- */
 @media only screen and (min-device-width: 1024px) and (max-device-height: 768px) and (orientation: landscape) {
   .master-slider-parent {
     position: relative;
