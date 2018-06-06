@@ -72,7 +72,8 @@ body {
   position: relative;
   top: 30px;
   height: 820px;
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  background-image: url("/img/blub1_topleft.svg"); }
 
 @media only screen and (min-width: 320px) and (max-width: 414px) {
   #projects {
@@ -80,11 +81,6 @@ body {
 
 #proj-subtitle {
   margin-bottom: 30px; }
-
-.demo-title {
-  font-family: 'Roboto-Light';
-  padding-top: 10px;
-  color: #4e6bff; }
 
 #coming-soon-text {
   color: #C0C0C0;
@@ -154,24 +150,3 @@ body {
 
 .code-icon {
   height: 100%; }
-
-@media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-device-width: 568px) and (min-device-width: 320px) and (orientation: portrait) {
-  .navbar-toggler1 {
-    padding: 1rem;
-    border: 1px solid #4e6bff; } }
-
-/* ------10" Notebook ----- */
-@media only screen and (min-device-width: 1024px) and (max-device-height: 768px) and (orientation: landscape) {
-  .master-slider-parent {
-    position: relative;
-    margin-top: 7px; }
-  #menu-topnav li a {
-    font-size: 11.5px; }
-  .col-md-4 {
-    width: 46% !important; }
-  .navbar > .container-fluid .navbar-brand {
-    margin-left: -48px !important;
-    /* Have to override Bootstrap's default spacing */ }
-  ul.social-nav {
-    right: 45px !important;
-    left: 0; } }
