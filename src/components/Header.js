@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "reactstrap";
 import laptop from '../img/laptop_triangle.svg';
 
+
 export class Header extends React.Component {
   render() {
     return (
@@ -26,7 +27,7 @@ export class Header extends React.Component {
 
           <Col sm="6" xl="6">
 
-            <img src={laptop} id="laptop-img" alt="logo" />
+            <img src={laptop} id="laptopImg" alt="logo" />
 
           </Col>
         </Row>

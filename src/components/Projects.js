@@ -2,11 +2,19 @@ import React from "react";
 import { Container, Row, Col } from "reactstrap";
 import github from "../img/github-icon.svg";
 import browser from "../img/browser-icon.svg";
+import blubTopLeft from '../img/blub1_topleft.svg';
+
 
 export class Projects extends React.Component {
   render() {
     return (
+
+      <div>
+
+      <img src={blubTopLeft} id="blub1_topleft" alt="logo" />
+
       <Container id="projects">
+      
         <h1>Code Projects</h1>
         <h3 id="proj-subtitle">Below are projects and demos that are code samples for you.</h3>
 
@@ -625,6 +633,7 @@ export class Projects extends React.Component {
         </Row>
         {/* End of Row 2 */}
       </Container>
+      </div>
     );
   }
 }

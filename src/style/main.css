@@ -54,6 +54,9 @@ body {
 #laptopImg {
   height: 100%; }
 
+#topBlub {
+  height: 100%; }
+
 @media only screen and (min-width: 320px) and (max-width: 414px) {
   .header-txt {
     top: 10px;
@@ -72,8 +75,18 @@ body {
   position: relative;
   top: 30px;
   height: 820px;
-  margin-bottom: 30px;
-  background-image: url("/img/blub1_topleft.svg"); }
+  margin-bottom: 30px; }
+
+#blub1_topleft {
+  height: 100%;
+  z-index: -100;
+  top: 900px;
+  position: relative;
+  left: -500px; }
+
+.shape-bg {
+  background-image: url("../img/blub1_topleft.svg");
+  position: sticky; }
 
 @media only screen and (min-width: 320px) and (max-width: 414px) {
   #projects {
