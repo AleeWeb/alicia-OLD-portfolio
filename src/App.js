@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
+import { Container} from "reactstrap";
 import { Nav } from './components/Nav';
 import { Header } from './components/Header';
-import { Projects } from './components/Projects';
+import { Code } from './components/Code';
+import { Design } from './components/Design';
 import { Tools } from './components/Tools';
 import { AboutMe } from './components/AboutMe';
 import { Footer } from './components/Footer';
-import './style/main.css';
 import ScrollNav from "./components/ScrollNav";
 
 // Floating Overwatch Side Nav 
@@ -19,9 +20,15 @@ const items = [
   
   {
       label: 'Code Projects',
-      id: 'projects',
+      id: 'code',
       icon:  '<img src="https://i.imgur.com/gsp0Vs2.png" alt="Code icon" /> ',
   },
+
+  {
+    label: 'Design Samples',
+    id: 'design',
+    icon:  '<img src="https://i.imgur.com/U4OhEvQ.png" alt="Toolkit" style="margin-top: 2px;" />',
+},
   
   {
     label: 'Toolkit',
@@ -49,28 +56,28 @@ const Sections = () => <div>{[...Array(items.length)].map((_, index) =>
 </div>
 
     return (
-      <div className="container">
+      <Container>
+                <Nav />
 
-        <Nav />
+                <Header />
 
-<Header />
+                  <ScrollNav
+                    distance={290}
+                  >
+                      <OverwatchSideNav items={items} />
+                  </ScrollNav>
 
-  <ScrollNav
-    distance={290}
-  >
-      <OverwatchSideNav items={items} />
-  </ScrollNav>
+                <Code />
 
-<Projects />
+                <Design />
 
-<Tools />
+                <Tools />
 
-<AboutMe />
+                <AboutMe />
 
-<Footer />
+                <Footer />
 
-
-      </div>
+</Container>
     );
   }
 }

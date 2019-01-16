@@ -1,6 +1,7 @@
 body
   font-family: 'Roboto-Light' !important
   height: 100vh
+  overflow-x: hidden
   h2, h3, h4
     font-family: 'Roboto-Regular'
     font-size: 1.3rem
@@ -11,12 +12,21 @@ body
     line-height: 29px
     margin-top: 30px
 
+
+@media only screen and (min-width: 300px) and (max-width: 414px)
+  img 
+    width: 100%
+
+  .social-links
+    width: auto !important
+  
 // Nav 
 .navbar-trans
   font-family: 'Roboto-Regular'
   margin-top: 20px
   position: relative
   right: 30px
+  box-shadow: none !important
   .nav-link
     font-size: 1.2rem
     color: #4e6bff
@@ -40,9 +50,13 @@ body
 
 #header
   position: relative
-  height: 900px
-  /* 1500 - 1680
+  height: 400px
 
+#laptopImg
+  width: 100%
+  height: 100%
+
+  /* 1500 - 1680
 @media only screen and (min-width: 1600px) and (max-width: 1680px)
   #header
     h3
@@ -58,22 +72,26 @@ body
       font-size: 2.1rem
       line-height: 55px
 
-#laptopImg
-  height: 100%
 
-#topBlub
-  height: 100%
 
-@media only screen and (min-width: 320px) and (max-width: 414px)
+@media only screen and (min-width: 300px) and (max-width: 414px)
+
+  #header 
+    height: auto
 
   .header-txt
     top: 10px
     left: 13%
+  
 
-  #laptop-img
-    height: 100%
-    margin-top: 60px
-    width: 100%
+@media only screen and (min-width: 400px) and (max-width: 823px)
+  #laptopImg
+    position: relative
+    top: 30px
+  
+  .header-txt
+    position: relative
+    top: 35px
 
 
 // Body Sections
@@ -83,30 +101,144 @@ body
   top: 30px
   height: 400px
 
-#projects
+#code
   position: relative
   top: 30px
-  height: 820px
-  margin-bottom: 30px
+  height: auto
+  margin-bottom: 110px
 
-#blub1_topleft
+  .featured-row 
+    margin-top: 70px
+    margin-bottom: 80px
+
+  .img-left
+    width: 100%
+    height: auto
+
+  .rd-title 
+    color: #6600ff
+    font-weight: bold
+    font-size: .95em
+  
+  .icom-sm 
+    height: 60px
+
+/* Potrait mobile tweaks */
+@media only screen and (min-width: 300px) and (max-width: 414px)
+
+  #header 
+    height: 500px
+
+  .header-subtxt 
+    font-size: 18px
+    color: #7a7a7a
+
+  #laptopImg 
+    width: 180px
+    height: 100%
+    margin-left: 10px
+
+  h1 
+   font-size: 1.5rem !important
+   font-weight: bold  !important
+
+  h5 
+  font-size: 1rem !important
+
+  #design-process 
+    margin-bottom: 400px
+
+  .process-icons 
+    height: 60px !important
+
+  .design-right-side
+    margin-left: 0 !important
+
+  #design
+    height: 2500px !important
+
+  
+/* Landscape mobile tweaks */
+@media only screen and (min-width: 320px) and (max-width: 414px)
+
+  #blob1_topleft, #blob2_right
+    display: none
+  #code
+    height: auto
+
+#blob1_topleft
   height: 100%
   z-index: -100
   top: 900px
   position: relative
   left: -500px
 
-.shape-bg
-  background-image: url('../img/blub1_topleft.svg') 
-  position: sticky
-  //height: 100vh use for big screens
+.hvr-grow-shadow
+  width: 100%
 
-@media only screen and (min-width: 320px) and (max-width: 414px)
-  #projects
-    height: auto
+.designpic
+  margin-bottom: 20px
+
+.icom-sm
+  height: 24px
+
+
+@media only screen and (min-width: 1820px) and (max-width: 1980px)
+  #blob1_topleft
+    left: -720px
+
+@media only screen and (min-width: 1600px) and (max-width: 1680px)
+  #blob1_topleft
+    left: -570px
 
 #proj-subtitle
   margin-bottom: 30px
+
+
+#design
+  position: relative
+  top: 30px
+  height: auto
+  margin-bottom: 10px
+
+.designrw 
+  position: relative
+  left: 35px
+  top: 40px
+
+#design-right-side 
+  position: relative
+  right: 20px
+  margin-left: 30px
+
+.designpic
+  width: 100%
+  margin-left: 10px
+  border-radius: 5px
+
+#row2-design
+  margin-top: 40px;
+  position: relative
+  right: 20px
+  margin-left: 30px
+
+
+#design-process 
+  position: relative
+  top: 200px
+
+.process-icons
+  height: 85%
+
+#process-icon-row
+  position: relative
+  left: 10px
+  top: 30px
+  
+
+.process-head 
+  text-align: center
+  padding-bottom: 2px
 
 #coming-soon-text
   color: #C0C0C0
@@ -120,6 +252,12 @@ body
   height: auto
   margin-bottom: 60px
 
+#blob2_right
+  height: 100%
+  top: 500px
+  position: relative
+  right: -500px
+
 #me
   position: relative
   top: 30px
@@ -128,11 +266,7 @@ body
 @media only screen and (min-width: 1820px) and (max-width: 1980px)   
  #me
     height: 820px
-
-
-#about-intro-img
-  margin-left: 20%
-
+    
 .social-links
   margin: 5px
 

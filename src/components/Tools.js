@@ -1,16 +1,23 @@
 import React from "react";
+import { Container } from "reactstrap";
+import blobRight from '../img/blob2_right.svg';
+
 
 export class Tools extends React.Component {
   render() {
     return (
-      <div id="skills">
+      <Container>
+
+        <img src={blobRight} id="blob2_right" alt="design_blob_shape_right" />
+
+      <Container id="skills">
         <h1>My Toolkit</h1>
         
       <h3>What do I usually use?</h3>
 
-			<p><strong>Front-end/Client-side:</strong> <img src={require('../img/front-end-icons.png')} alt ="Front End Icons" /></p>
+			<p><strong>Front-end/Client-side:</strong> <img src={require('../img/front-end-icons1.png')} alt ="Front End Icons" /></p>
 
-			<p><strong>Web Application Libraries/Frameworks:</strong> <img src={require('../img/appstack-icons.png')} alt ="Web App Stack icons" /></p>
+			<p><strong>Web Application Libraries/Frameworks:</strong> <img src={require('../img/app-framework-icons2v2.png')} alt ="Web App Stack icons" /></p>
 
       <small>Note: Django is a full stack Python framework.</small>
 
@@ -22,12 +29,14 @@ export class Tools extends React.Component {
 
 			<p><strong>Tools:</strong> MacBook Pro, Terminal, Git, Github, NPM, Visual Studio Code Editor</p>
 
-      <p><strong>UI and UX Tools:</strong> <img src={require('../img/ui-ux-tools.png')} alt ="UI/UX Tools" /></p>
+      <p><strong>UI and UX Tools:</strong> <img src={require('../img/ui-ux-tools1.png')} alt ="UI/UX Tools" /></p>
       
 
-            <em>Training in Sketch, Adobe After Effects for animated gifs and more in the tools above.</em>
-
-      </div>
+            <em>I'm also familiar with InVision and Framer X.</em>
+            
+         </Container>
+         
+         </Container>
     );
   }
 }
