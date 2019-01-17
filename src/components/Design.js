@@ -19,7 +19,7 @@ export class Design extends React.Component {
 
                 <Col xl="3" >
 
-                <img src={require('../img/mobile_prototype1.gif')} alt="mobile_prototype_gif" width="94%" />
+                <img id="mprototype" src={require('../img/mobile_prototype1.gif')} alt="mobile_prototype_gif" width="94%" />
 
                   </Col>
 

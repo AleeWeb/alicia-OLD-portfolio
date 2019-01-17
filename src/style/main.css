@@ -47,7 +47,49 @@ body {
 
 #laptopImg {
   width: 100%;
-  height: 100%;
+  height: 100%; }
+
+#iSquare-img {
+  position: relative;
+  top: -60px; }
+
+#ycircle-img {
+  position: relative;
+  top: 10px;
+  left: 190px; }
+
+.floating {
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  margin-left: 30px;
+  margin-top: 5px; }
+
+@keyframes floating {
+  from {
+    transform: translate(0, 0px); }
+  65% {
+    transform: translate(0, 15px); }
+  to {
+    transform: translate(0, 0px); } }
+
+#pSquare-img {
+  position: relative;
+  top: 50px;
+  -webkit-animation: rotation 6s infinite linear; }
+
+#aTriangle {
+  position: relative;
+  left: 198px;
+  top: -49px;
+  -webkit-animation: rotation 6s infinite linear; }
+
+@-webkit-keyframes rotation {
+  from {
+    -webkit-transform: rotate(0deg); }
+  to {
+    -webkit-transform: rotate(359deg); }
   /* 1500 - 1680 */ }
 
 @media only screen and (min-width: 1600px) and (max-width: 1680px) {
@@ -110,6 +152,8 @@ body {
     color: #7a7a7a; }
   #laptopImg {
     margin-left: 10px; }
+  #iSquare-img, #aTriangle, #pSquare-img {
+    display: none; }
   h1 {
     font-size: 1.5rem !important;
     font-weight: bold  !important; }
@@ -118,10 +162,17 @@ body {
     margin-bottom: 400px; }
   .process-icons {
     height: 60px !important; }
-  .design-right-side {
-    margin-left: 0 !important; }
+  #design-right-side, #row2-design {
+    right: 40px !important;
+    margin-left: 0px !important; }
+  .designpic {
+    margin-bottom: 40px; }
   #design {
-    height: 2500px !important; } }
+    height: 2500px !important; }
+  #mprototype {
+    width: 84%; }
+  #blob1_topleft, #blob2_right {
+    visibility: hidden !important; } }
 
 /* Landscape mobile tweaks */
 @media only screen and (min-width: 320px) and (max-width: 414px) {
@@ -137,10 +188,16 @@ body {
   position: relative;
   left: -500px; }
 
+#mprototype {
+  width: 73%; }
+
 .hvr-grow-shadow {
   width: 100%; }
 
 .designpic {
+  position: relative;
+  right: 20px;
+  margin-left: 0px !important;
   margin-bottom: 20px; }
 
 .icom-sm {
