@@ -9,14 +9,18 @@ export class Code extends React.Component {
   render() {
     return (
 
-<div>
-
-      <img src={blobTopLeft} id="blob1_topleft" alt="logo" />
-
-      <div id="code">
+      <div id="code" 
+      style = {{ backgroundImage: 'url(' + blobTopLeft + ')', 
+      backgroundSize: 'cover', 
+      backgroundPosition: 'center center',
+      backgroundRepeat: 'no-repeat',
+      height: 'auto'
+    }}>
       
         <h1>Code Projects</h1>
+
         <h5 id="proj-subtitle">Below are projects and demos that are code samples.</h5>
+
 
 <Row className="featured-row">
 
@@ -641,8 +645,6 @@ export class Code extends React.Component {
           
         </Row>
         {/* End of Row 2 */}
-      </div>
-
       </div>
     );
   }

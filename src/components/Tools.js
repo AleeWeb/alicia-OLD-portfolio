@@ -6,11 +6,17 @@ import blobRight from '../img/blob2_right.svg';
 export class Tools extends React.Component {
   render() {
     return (
-      <Container>
+  
 
-        <img src={blobRight} id="blob2_right" alt="design_blob_shape_right" />
+      <Container id="skills" 
+      style = {{ backgroundImage: 'url(' + blobRight + ')', 
+      backgroundSize: 'cover', 
+      backgroundPosition: 'center center',
+      backgroundPositionX: '340px',
+      backgroundRepeat: 'no-repeat',
+      height: '950px'
+    }}>
 
-      <Container id="skills">
         <h1>My Toolkit</h1>
         
       <h3>What do I usually use?</h3>
@@ -34,9 +40,8 @@ export class Tools extends React.Component {
 
             <em>I'm also familiar with InVision and Framer X.</em>
             
-         </Container>
-         
-         </Container>
+   
+      </Container>
     );
   }
 }

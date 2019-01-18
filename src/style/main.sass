@@ -30,9 +30,9 @@ body
   box-shadow: none !important
   .nav-link
     font-size: 1.2rem
-    color: #4e6bff
+    color: #3D56D3
     &:hover
-      color: #ff97af
+      color: #4e6bff
 
 @media only screen and (min-width: 1820px) and (max-width: 1980px)   
  .navbar-expand-lg .navbar-nav .nav-link
@@ -51,7 +51,8 @@ body
 
 #header
   position: relative
-  height: 400px
+  height: 700px
+  margin-bottom: 20px
 
 #laptopImg
   width: 100%
@@ -116,8 +117,6 @@ body
 
 
 
-
-
   /* 1500 - 1680
 @media only screen and (min-width: 1600px) and (max-width: 1680px)
   #header
@@ -156,7 +155,7 @@ body
     top: 35px
 
 
-// Body Sections
+// ----Header Styles ----
 
 #offer
   position: relative
@@ -166,7 +165,7 @@ body
 #code
   position: relative
   top: 30px
-  height: auto
+  height: 1450px
   margin-bottom: 110px
 
   .featured-row 
@@ -184,6 +183,15 @@ body
   
   .icom-sm 
     height: 60px
+
+
+#design
+  position: relative
+  top: 30px
+  height: 1600px
+  margin-bottom: 30px
+
+
 
 /* Potrait mobile tweaks */
 @media only screen and (min-width: 300px) and (max-width: 414px)
@@ -222,44 +230,40 @@ body
     margin-bottom: 40px 
 
   #design
-    height: 2500px !important
+    height: 2600px !important
   
   #mprototype
     width: 84%
 
-  #blob1_topleft, #blob2_right
-    visibility: hidden !important
+  #code, #skills
+    background-image: none !important
   
+
 /* Landscape mobile tweaks */
-@media only screen and (min-width: 320px) and (max-width: 414px)
-
-  #blob1_topleft, #blob2_right
-    display: none
-
-  #code
+@media (min-width: 481px) and (max-width: 767px)
+  #code, #skills
+    background-image: none
+  #code, #design
     height: auto
+  #blob1_topleft
+    height: 100%
+    z-index: -100
+    top: 900px
+    position: relative
+    left: -500px
+  #mprototype
+    width: 73%
+  .hvr-grow-shadow
+    width: 100%
+  .designpic
+    position: relative
+    right: 20px
+    margin-left: 0px
+    margin-bottom: 20px
+  .icom-sm
+    height: 24px
 
-#blob1_topleft
-  height: 100%
-  z-index: -100
-  top: 900px
-  position: relative
-  left: -500px
 
-#mprototype
-  width: 73%
-
-.hvr-grow-shadow
-  width: 100%
-
-.designpic
-  position: relative
-  right: 20px
-  margin-left: 0px !important
-  margin-bottom: 20px
-
-.icom-sm
-  height: 24px
 
 @media only screen and (min-width: 1820px) and (max-width: 1980px)
   #blob1_topleft
@@ -272,12 +276,6 @@ body
 #proj-subtitle
   margin-bottom: 30px
 
-
-#design
-  position: relative
-  top: 30px
-  height: auto
-  margin-bottom: 10px
 
 .designrw 
   position: relative
@@ -318,11 +316,6 @@ body
   text-align: center
   padding-bottom: 2px
 
-#coming-soon-text
-  color: #C0C0C0
-  position: relative
-  margin-top: 90px
-  margin-left: 60px
 
 #skills
   position: relative
