@@ -17,7 +17,7 @@ export class Code extends React.Component {
       height: 'auto'
     }}>
       
-        <h1>Code Projects</h1>
+        <h3>Code Projects</h3>
 
         <h5 id="proj-subtitle">Below are projects and demos that are code samples.</h5>
 

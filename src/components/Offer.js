@@ -7,7 +7,7 @@ export class Offer extends React.Component {
         <div className="row">
               <div className="col-sm-12 col-md-12">
 
-                <h1>Why Hire ME?</h1>
+                <h1>My Process</h1>
 
                 <h5>I can build apps with a variety of programming languages.</h5>
 

@@ -9,7 +9,7 @@ export class Design extends React.Component {
        return(
         <div id="design">
 
-            <h1>Design samples</h1>
+            <h3>Design samples</h3>
             <h5 id="proj-subtitle">Mockups, interactive prototypes and MORE Coming Soon! <strong>Click on the thumbnails below.</strong></h5>    
                 
 

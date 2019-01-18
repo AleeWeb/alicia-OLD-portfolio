@@ -17,7 +17,7 @@ export class Tools extends React.Component {
       height: '950px'
     }}>
 
-        <h1>My Toolkit</h1>
+        <h3>My Toolkit</h3>
         
       <h3>What do I usually use?</h3>
 
