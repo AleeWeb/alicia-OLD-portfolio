@@ -35,10 +35,9 @@ export class Tools extends React.Component {
 
 			<p><strong>Tools:</strong> MacBook Pro, Terminal, Git, Github, NPM, Visual Studio Code Editor</p>
 
-      <p><strong>UI and UX Tools:</strong> <img src={require('../img/ui-ux-tools1.png')} alt ="UI/UX Tools" /></p>
-      
+      <p><strong>UI and UX Tools:</strong> <img src={require('../img/ui-ux-tools.png')} alt ="UI/UX Tools" /></p>
 
-            <em>I'm also familiar with InVision and Framer X.</em>
+          <em>I'm also familiar with InVision, Framer X and Sketch.</em>
             
    
       </Container>
