@@ -177,8 +177,11 @@ body {
     margin-bottom: 40px; }
   #mprototype {
     width: 84%; }
-  .gif-left-area {
-    display: none; } }
+  .img-left {
+    display: none; }
+  .right-featured {
+    position: relative;
+    right: 30px; } }
 
 /* Landscape mobile tweaks */
 @media (min-width: 481px) and (max-width: 767px) {
