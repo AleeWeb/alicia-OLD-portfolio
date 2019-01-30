@@ -41,7 +41,7 @@ export class Code extends React.Component {
             </Col>
 
 
-            <Col xs="7" md={{ size: 7, offset: 1 }} className="right-featured">
+            <Col xs="12" md={{ size: 7, offset: 1 }} className="right-featured">
               <Media body>
                 <Media heading>
                   <span className="rd-title">React Fetch API &amp; Django REST API</span> Tech Product Review Web App

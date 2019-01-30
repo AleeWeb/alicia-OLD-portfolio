@@ -148,7 +148,7 @@ body {
 #design {
   position: relative;
   top: 30px;
-  height: 1600px;
+  height: auto;
   margin-bottom: 30px; }
 
 /* Potrait mobile tweaks */
@@ -175,19 +175,15 @@ body {
     margin-left: 0px !important; }
   .designpic {
     margin-bottom: 40px; }
-  #design {
-    height: 2600px !important; }
   #mprototype {
     width: 84%; }
-  #code, #skills {
-    background-image: none !important; } }
+  .gif-left-area {
+    display: none; } }
 
 /* Landscape mobile tweaks */
 @media (min-width: 481px) and (max-width: 767px) {
   #code, #skills {
     background-image: none; }
-  #code, #design {
-    height: auto; }
   #blob1_topleft {
     height: 100%;
     z-index: -100;
@@ -256,9 +252,9 @@ body {
 
 #skills {
   position: relative;
-  top: 30px;
   height: auto;
-  margin-bottom: 60px; }
+  margin-bottom: 10px;
+  margin-top: 310px; }
 
 #blob2_right {
   height: 100%;
