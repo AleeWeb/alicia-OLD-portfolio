@@ -6,40 +6,41 @@ import blobRight from '../img/blob2_right.svg';
 export class Tools extends React.Component {
   render() {
     return (
-  
 
-      <Container id="skills" 
-      style = {{ backgroundImage: 'url(' + blobRight + ')', 
-      backgroundSize: 'cover', 
-      backgroundPosition: 'center center',
-      backgroundPositionX: '340px',
-      backgroundRepeat: 'no-repeat',
-      height: '950px'
-    }}>
 
-        <h3>My Toolkit</h3>
-        
-      <h3>What do I usually use?</h3>
+      <Container id="skills"
+        style={{
+          backgroundImage: 'url(' + blobRight + ')',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center center',
+          backgroundPositionX: '340px',
+          backgroundRepeat: 'no-repeat',
+          height: '950px'
+        }}>
 
-			<p><strong>Front-end/Client-side:</strong> <img src={require('../img/front-end-icons1.png')} alt ="Front End Icons" /></p>
+        <h3 className="main-headline">My Toolkit</h3>
 
-			<p><strong>Web Application Libraries/Frameworks:</strong> <img src={require('../img/app-framework-icons2v2.png')} alt ="Web App Stack icons" /></p>
+        <h3>What do I usually use?</h3>
 
-      <small>Note: Django is a full stack Python framework.</small>
+        <p><strong>Front-end/Client-side:</strong> <img src={require('../img/front-end-icons1.png')} alt="Front End Icons" /></p>
 
-			<p><strong>Server-side:</strong> Node.Js, Python, API, RESTful services</p>
+        <p><strong>Web Application Libraries/Frameworks:</strong> <img src={require('../img/app-framework-icons2v2.png')} alt="Web App Stack icons" /></p>
 
-			<p><strong>Deployment/Server experience:</strong> AWS, Heroku and MAMP</p>
+        <small>Note: Django is a full stack Python framework.</small>
 
-			<p><strong>Database:</strong> MySQL, SQLite and MongoDB</p>
+        <p><strong>Server-side:</strong> Node.Js, Python, API, RESTful services</p>
 
-			<p><strong>Tools:</strong> MacBook Pro, Terminal, Git, Github, NPM, Visual Studio Code Editor</p>
+        <p><strong>Deployment/Server experience:</strong> AWS, Heroku and MAMP</p>
 
-      <p><strong>UI and UX Tools:</strong> <img src={require('../img/ui-ux-tools.png')} alt ="UI/UX Tools" /></p>
+        <p><strong>Database:</strong> MySQL, SQLite and MongoDB</p>
 
-          <em>I'm also familiar with InVision, Framer X and Sketch.</em>
-            
-   
+        <p><strong>Tools:</strong> MacBook Pro, Terminal, Git, Github, NPM, Visual Studio Code Editor</p>
+
+        <p><strong>UI and UX Tools:</strong> <img src={require('../img/ui-ux-tools.png')} alt="UI/UX Tools" /></p>
+
+        <em>I'm also familiar with InVision, Framer X and Sketch.</em>
+
+
       </Container>
     );
   }
