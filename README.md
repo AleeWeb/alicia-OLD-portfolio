@@ -1,7 +1,7 @@
 
 
-<h4>This was my original and FIRST React portfolio website. (Now old)</h4>
+<h4>This was my original and FIRST React portfolio website. (Now OLD)</h4>
 
-<p>My portfolio website is built with React 16, Bootstrap 4, <a href="https://reactstrap.github.io/" target="_blank">ReactStrap</a>, SASS, SVG and more!</p>
+<p>This previous website was built with React 16, Bootstrap 4, ReactStrap, SASS, SVG and more.</p>
 
-<img src="src/img/pheader.gif" alt="Portfolio banner header">
+<h3>Check out my <a href="https://github.com/AleeWeb/alicia-portfolio-site" target="_blank">new and improved React Portfolio website</a> with better coding practices and design."</h3>
